@@ -9,12 +9,24 @@
 /* Begin PBXBuildFile section */
 		2A55FC5C263551A6007340DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A55FC5B263551A6007340DC /* AppDelegate.swift */; };
 		2A55FC5E263551A6007340DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A55FC5D263551A6007340DC /* SceneDelegate.swift */; };
-		2A55FC60263551A6007340DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A55FC5F263551A6007340DC /* ContentView.swift */; };
 		2A55FC62263551A7007340DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A55FC61263551A7007340DC /* Assets.xcassets */; };
 		2A55FC65263551A7007340DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A55FC64263551A7007340DC /* Preview Assets.xcassets */; };
 		2A55FC68263551A7007340DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A55FC66263551A7007340DC /* LaunchScreen.storyboard */; };
 		2A55FC73263551A7007340DC /* HealthyFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A55FC72263551A7007340DC /* HealthyFoodTests.swift */; };
 		2A55FC7E263551A7007340DC /* HealthyFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A55FC7D263551A7007340DC /* HealthyFoodUITests.swift */; };
+		2A55FC932635521A007340DC /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A55FC922635521A007340DC /* WelcomeView.swift */; };
+		2A55FC942635521A007340DC /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A55FC922635521A007340DC /* WelcomeView.swift */; };
+		2A55FC952635521A007340DC /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A55FC922635521A007340DC /* WelcomeView.swift */; };
+		2A55FC9E26355A21007340DC /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A55FC9D26355A21007340DC /* HomeScreen.swift */; };
+		2A55FC9F26355A21007340DC /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A55FC9D26355A21007340DC /* HomeScreen.swift */; };
+		2A55FCA026355A21007340DC /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A55FC9D26355A21007340DC /* HomeScreen.swift */; };
+		2A55FCA9263575EF007340DC /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A55FCA8263575EF007340DC /* ColorExtensions.swift */; };
+		2A55FCAA263575EF007340DC /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A55FCA8263575EF007340DC /* ColorExtensions.swift */; };
+		2A55FCAB263575EF007340DC /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A55FCA8263575EF007340DC /* ColorExtensions.swift */; };
+		2A55FCB32635761C007340DC /* DrinkItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A55FCB22635761C007340DC /* DrinkItemView.swift */; };
+		2A55FCB42635761C007340DC /* DrinkItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A55FCB22635761C007340DC /* DrinkItemView.swift */; };
+		2A55FCB52635761C007340DC /* DrinkItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A55FCB22635761C007340DC /* DrinkItemView.swift */; };
+		2A883266263C60D4000C8CFA /* ItemDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A883265263C60D4000C8CFA /* ItemDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +50,6 @@
 		2A55FC58263551A6007340DC /* HealthyFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthyFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A55FC5B263551A6007340DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A55FC5D263551A6007340DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2A55FC5F263551A6007340DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2A55FC61263551A7007340DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A55FC64263551A7007340DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2A55FC67263551A7007340DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +60,11 @@
 		2A55FC79263551A7007340DC /* HealthyFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthyFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A55FC7D263551A7007340DC /* HealthyFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthyFoodUITests.swift; sourceTree = "<group>"; };
 		2A55FC7F263551A7007340DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A55FC922635521A007340DC /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		2A55FC9D26355A21007340DC /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		2A55FCA8263575EF007340DC /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		2A55FCB22635761C007340DC /* DrinkItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkItemView.swift; sourceTree = "<group>"; };
+		2A883265263C60D4000C8CFA /* ItemDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +115,12 @@
 		2A55FC5A263551A6007340DC /* HealthyFood */ = {
 			isa = PBXGroup;
 			children = (
+				2A883264263C60B8000C8CFA /* ItemDetailView */,
+				2A55FCA7263575D3007340DC /* extensions */,
+				2A55FC9C26355A10007340DC /* HomeScreen */,
+				2A55FC91263551FC007340DC /* StartingScreen */,
 				2A55FC5B263551A6007340DC /* AppDelegate.swift */,
 				2A55FC5D263551A6007340DC /* SceneDelegate.swift */,
-				2A55FC5F263551A6007340DC /* ContentView.swift */,
 				2A55FC61263551A7007340DC /* Assets.xcassets */,
 				2A55FC66263551A7007340DC /* LaunchScreen.storyboard */,
 				2A55FC69263551A7007340DC /* Info.plist */,
@@ -134,6 +153,39 @@
 				2A55FC7F263551A7007340DC /* Info.plist */,
 			);
 			path = HealthyFoodUITests;
+			sourceTree = "<group>";
+		};
+		2A55FC91263551FC007340DC /* StartingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2A55FC922635521A007340DC /* WelcomeView.swift */,
+			);
+			path = StartingScreen;
+			sourceTree = "<group>";
+		};
+		2A55FC9C26355A10007340DC /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2A55FC9D26355A21007340DC /* HomeScreen.swift */,
+				2A55FCB22635761C007340DC /* DrinkItemView.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		2A55FCA7263575D3007340DC /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2A55FCA8263575EF007340DC /* ColorExtensions.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		2A883264263C60B8000C8CFA /* ItemDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				2A883265263C60D4000C8CFA /* ItemDetails.swift */,
+			);
+			path = ItemDetailView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A55FCB32635761C007340DC /* DrinkItemView.swift in Sources */,
+				2A55FC9E26355A21007340DC /* HomeScreen.swift in Sources */,
+				2A55FCA9263575EF007340DC /* ColorExtensions.swift in Sources */,
 				2A55FC5C263551A6007340DC /* AppDelegate.swift in Sources */,
+				2A883266263C60D4000C8CFA /* ItemDetails.swift in Sources */,
+				2A55FC932635521A007340DC /* WelcomeView.swift in Sources */,
 				2A55FC5E263551A6007340DC /* SceneDelegate.swift in Sources */,
-				2A55FC60263551A6007340DC /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +332,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A55FCB42635761C007340DC /* DrinkItemView.swift in Sources */,
 				2A55FC73263551A7007340DC /* HealthyFoodTests.swift in Sources */,
+				2A55FC942635521A007340DC /* WelcomeView.swift in Sources */,
+				2A55FC9F26355A21007340DC /* HomeScreen.swift in Sources */,
+				2A55FCAA263575EF007340DC /* ColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +344,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A55FCB52635761C007340DC /* DrinkItemView.swift in Sources */,
 				2A55FC7E263551A7007340DC /* HealthyFoodUITests.swift in Sources */,
+				2A55FC952635521A007340DC /* WelcomeView.swift in Sources */,
+				2A55FCA026355A21007340DC /* HomeScreen.swift in Sources */,
+				2A55FCAB263575EF007340DC /* ColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +505,7 @@
 				DEVELOPMENT_TEAM = QA29H4VW6G;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HealthyFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +527,7 @@
 				DEVELOPMENT_TEAM = QA29H4VW6G;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HealthyFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
